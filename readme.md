@@ -1,11 +1,13 @@
-# My Python Projects
+# 🚀 Python Web Scraper & News Reporter
 
-ఈ రిపోజిటరీలో నేను చేసిన పైథాన్ ప్రాజెక్టులు ఉన్నాయి:
+### **What this project does:**
+This is an automated Python tool that scrapes the latest news headlines and saves them into a CSV report.
 
-## 1. Daily Task Automation
-- **ఫైల్:** `Automation.py`
-- **వివరణ:** రోజువారీ పనులను ఆటోమేటిక్‌గా సేవ్ చేసే కోడ్.
+### **How I built it:**
+* **Web Scraping:** Used Python's `BeautifulSoup` to extract real-time headlines.
+* **Automation:** The script automatically formats the data into a structured table.
+* **Data Output:** Results are stored in `daily_new_report.csv` for easy access.
 
-## 2. Live Web Scraper
-- **ఫైల్:** `Web_scraper.py`
-- **వివరణ:** వెబ్‌సైట్ నుండి తాజా వార్తలను సేకరించే కోడ్.
+### **Files in this Repository:**
+1. `Web_scraper.py`: The core scraping logic.
+2. `daily_new_report.csv`: The actual data collected by the script.
